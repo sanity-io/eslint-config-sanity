@@ -31,7 +31,7 @@ module.exports = {
     'react/jsx-sort-props': 'off',
     'react/jsx-first-prop-new-line': ['error', 'multiline'],
     'react/jsx-no-target-blank': 'error',
-    'react/jsx-filename-extension': ['error', {extensions: ['.js']}],
+    'react/jsx-filename-extension': ['error', {extensions: ['.tsx', '.js']}],
     'react/jsx-boolean-value': 'error',
     'react/jsx-child-element-spacing': 'off', // missing docs atm
     'react/jsx-closing-bracket-location': 1,
