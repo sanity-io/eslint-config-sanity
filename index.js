@@ -84,7 +84,7 @@ module.exports = {
     'no-compare-neg-zero': 'error',
     'no-cond-assign': ['error', 'except-parens'],
     'no-confusing-arrow': ['error', {allowParens: true}],
-    'no-console': 'error',
+    'no-console': ['error', {allow: ['warn', 'error']}],
     'no-const-assign': 'error',
     'no-constant-condition': 'error',
     'no-continue': 'off',
