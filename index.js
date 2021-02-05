@@ -13,7 +13,7 @@ module.exports = {
     'arrow-body-style': 'off',
     'array-callback-return': 'error',
     'array-element-newline': 'off',
-    'arrow-parens': ['error', 'as-needed'],
+    'arrow-parens': ['error', 'always'],
     'arrow-spacing': 'error',
     'block-scoped-var': 'error',
     'block-spacing': ['error', 'always'],
@@ -61,7 +61,7 @@ module.exports = {
     'lines-around-comment': 'off',
     'lines-between-class-members': 'off', // turn on if supports methods only
     'max-depth': ['error', 4],
-    'max-len': ['error', 150, 2],
+    'max-len': ['error', 100, 2],
     'max-lines': 'off',
     'max-nested-callbacks': ['error', 3],
     'max-params': ['error', 5],
