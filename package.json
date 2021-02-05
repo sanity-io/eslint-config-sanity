@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sanity-io/sanity.git"
+    "url": "git+https://github.com/sanity-io/eslint-config-sanity.git"
   },
   "keywords": [
     "sanity",
@@ -24,14 +24,14 @@
   "author": "Sanity.io <hello@sanity.io>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sanity-io/sanity/issues"
+    "url": "https://github.com/sanity-io/eslint-config-sanity/issues"
   },
   "homepage": "https://www.sanity.io/",
   "peerDependencies": {
-    "eslint": "^6.0.0"
+    "eslint": ">=7.0.0"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.1.0",
+    "@typescript-eslint/eslint-plugin": "^4.14.2",
     "@typescript-eslint/parser": "^4.1.0",
     "eslint": "^7.8.1",
     "eslint-plugin-import": "^2.18.2",
