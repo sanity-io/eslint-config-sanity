@@ -26,8 +26,6 @@ module.exports = {
     'no-use-before-define': 'off',
 
     '@typescript-eslint/no-var-requires': 'off', // covered by @typescript-eslint/no-var-requires
-
-    'react/jsx-filename-extension': ['error', {extensions: ['.tsx', '.js']}],
   },
   overrides: [
     {
