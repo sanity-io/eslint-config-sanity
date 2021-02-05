@@ -11,6 +11,11 @@ module.exports = {
       jsx: true,
     },
   },
+  settings: {
+    react: {
+      version: 'detect',
+    },
+  },
   rules: {
     'react/boolean-prop-naming': 'off', // todo: enable this with list of native html boolean attributes allowed (and is/has/can/will/*-prefixes)
     'react/button-has-type': 'error',
