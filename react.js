@@ -17,7 +17,7 @@ module.exports = {
     },
   },
   rules: {
-    'react/boolean-prop-naming': 'off', // todo: enable this with list of native html boolean attributes allowed (and is/has/can/will/*-prefixes)
+    'react/boolean-prop-naming': 'off',
     'react/button-has-type': 'error',
     'react/display-name': ['error', {ignoreTranspilerName: false}],
     'react/default-props-match-prop-types': 'error',
@@ -51,7 +51,8 @@ module.exports = {
     'react/jsx-one-expression-per-line': 'off',
     'react/jsx-pascal-case': 'error',
     'react/jsx-sort-default-props': 'off',
-    // "react/jsx-space-before-closing": ["error", "always"], //@@@ removed in favor of react/jsx-tag-spacing
+    //@@@ removed in favor of react/jsx-tag-spacing
+    // "react/jsx-space-before-closing": ["error", "always"],
     'react/jsx-uses-react': 'error',
     'react/jsx-uses-vars': 'error',
     'react/jsx-tag-spacing': [
@@ -66,7 +67,8 @@ module.exports = {
     'react/no-access-state-in-setstate': 'error',
     'react/no-array-index-key': 'warn',
     'react/no-children-prop': 'error',
-    // "react/no-comment-textnodes": "error",  //@@@ deprecated in favor of react/jsx-no-comment-textnodes
+    //@@@ deprecated in favor of react/jsx-no-comment-textnodes
+    // "react/no-comment-textnodes": "error",
     'react/no-danger': 'warn',
     'react/no-danger-with-children': 'error',
     'react/no-deprecated': 'error',
@@ -90,7 +92,8 @@ module.exports = {
     'react/prefer-es6-class': 'off',
     'react/prop-types': 'error',
     'react/react-in-jsx-scope': 'error',
-    // "react/require-extension": "...", //@@@ deprecated in favor of the eslint-plugin-import extensions rule
+    //@@@ deprecated in favor of the eslint-plugin-import extensions rule
+    // "react/require-extension": "...",
     'react/require-optimization': 'off',
     'react/require-render-return': 'error',
     'react/require-default-props': 'warn',
@@ -100,7 +103,7 @@ module.exports = {
     'react/self-closing-comp': 'error',
     'react/style-prop-object': 'error',
     'react/void-dom-elements-no-children': 'error',
-
-    // "react/wrap-multilines": "error" //@@@ deprecated in favor of react/jsx-wrap-multilines
+    //@@@ deprecated in favor of react/jsx-wrap-multilines
+    // "react/wrap-multilines": "error"
   },
 }

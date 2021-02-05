@@ -15,7 +15,8 @@ module.exports = {
     'react/require-default-props': 'off',
     // ---
 
-    // --- causing parse errors with d.ts files, see https://github.com/typescript-eslint/typescript-eslint/issues/420
+    // --- causing parse errors with d.ts files
+    // --- see https://github.com/typescript-eslint/typescript-eslint/issues/420
     'no-useless-constructor': 'off',
     '@typescript-eslint/no-useless-constructor': 'error',
     // ---
