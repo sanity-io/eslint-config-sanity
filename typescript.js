@@ -1,5 +1,8 @@
-// Use this for typescript projects
+// Use this for TypeScript projects
+// If using both TypeScript + React:
+// make sure you load `sanity/react` _before_  `sanity/typescript`
 module.exports = {
+  extends: ['./index'],
   env: {
     node: true,
     browser: true,

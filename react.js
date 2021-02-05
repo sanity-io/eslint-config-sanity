@@ -1,9 +1,10 @@
-// Use this for react projects
+// Use this for React projects
 module.exports = {
   env: {
     node: true,
     browser: true,
   },
+  extends: ['./index'],
   plugins: ['react'],
   parserOptions: {
     ecmaFeatures: {
