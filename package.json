@@ -36,6 +36,13 @@
     "eslint": "^7.8.1",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-react": "^7.20.6",
-    "lodash.difference": "^4.5.0"
+    "lodash.difference": "^4.5.0",
+    "prettier": "^2.2.1"
+  },
+  "prettier": {
+    "semi": false,
+    "printWidth": 100,
+    "bracketSpacing": false,
+    "singleQuote": true
   }
 }
