@@ -24,9 +24,14 @@ module.exports = {
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/no-use-before-define': 'off',
+    '@typescript-eslint/no-var-requires': 'off',
+
+    // does not understand typescript types/interfaces defined late
     'no-use-before-define': 'off',
 
-    '@typescript-eslint/no-var-requires': 'off', // covered by @typescript-eslint/no-var-requires
+    // prevents function overloading in typescript, so disable base rule
+    'no-redeclare': 'off',
+    '@typescript-eslint/no-redeclare': ['error'],
   },
   overrides: [
     {
