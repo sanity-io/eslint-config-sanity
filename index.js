@@ -215,7 +215,7 @@ module.exports = {
     'operator-linebreak': ['error', 'before'],
     'padded-blocks': 'off',
     'padding-line-between-statements': 'off',
-    'prefer-arrow-callback': 'error',
+    'prefer-arrow-callback': ['warn', {allowNamedFunctions: true}],
     'prefer-const': 'error',
     'prefer-destructuring': 'off',
     'prefer-numeric-literals': 'error',
