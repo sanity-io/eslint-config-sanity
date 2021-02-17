@@ -212,7 +212,7 @@ module.exports = {
     'one-var': ['error', 'never'],
     'one-var-declaration-per-line': 'off',
     'operator-assignment': ['error', 'always'],
-    'operator-linebreak': ['error', 'before'],
+    'operator-linebreak': 'off', // conflicts with prettier
     'padded-blocks': 'off',
     'padding-line-between-statements': 'off',
     'prefer-arrow-callback': 'error',
