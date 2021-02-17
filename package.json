@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "eslint .",
+    "release": "standard-version",
     "diff": "node ./bin/diff.js && echo '\nnpm update eslint to get latest rules'"
   },
   "repository": {
@@ -37,12 +38,18 @@
     "eslint-plugin-import": "2.22.1",
     "eslint-plugin-react": "7.22.0",
     "lodash.difference": "4.5.0",
-    "prettier": "2.2.1"
+    "prettier": "2.2.1",
+    "standard-version": "9.1.0"
   },
   "prettier": {
     "semi": false,
     "printWidth": 100,
     "bracketSpacing": false,
     "singleQuote": true
+  },
+  "standard-version": {
+    "skip": {
+      "changelog": true
+    }
   }
 }
