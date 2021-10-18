@@ -39,7 +39,7 @@
     "eslint-plugin-react": "7.23.1",
     "lodash.difference": "4.5.0",
     "prettier": "2.2.1",
-    "standard-version": "9.1.1"
+    "standard-version": "9.3.2"
   },
   "prettier": {
     "semi": false,
