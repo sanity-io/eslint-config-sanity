@@ -19,7 +19,7 @@ module.exports = {
     'block-spacing': ['error', 'always'],
     'brace-style': ['error', '1tbs', {allowSingleLine: false}],
     'callback-return': 'error',
-    camelcase: 'error',
+    camelcase: ['error', {allow: ['^_*unstable_', '^UNSAFE_']}],
     'capitalized-comments': 'off',
     'class-methods-use-this': 'warn',
     'comma-dangle': 'off',
