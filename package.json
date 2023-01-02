@@ -35,13 +35,13 @@
     "eslint": ">=8.0.0"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.18.0",
-    "@typescript-eslint/parser": "^5.18.0",
-    "eslint": "^8.12.0",
-    "eslint-plugin-import": "^2.25.4",
-    "eslint-plugin-react": "^7.29.4",
+    "@typescript-eslint/eslint-plugin": "^5.48.0",
+    "@typescript-eslint/parser": "^5.48.0",
+    "eslint": "^8.31.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-react": "^7.31.11",
     "lodash.difference": "4.5.0",
-    "prettier": "^2.6.2",
+    "prettier": "^2.8.1",
     "standard-version": "^9.3.2"
   },
   "prettier": {
