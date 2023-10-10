@@ -4,9 +4,7 @@
   "description": "Shared eslint configs for sanity-io",
   "main": "index.js",
   "scripts": {
-    "test": "eslint .",
-    "release": "standard-version",
-    "diff": "node ./bin/diff.js && echo '\nnpm update eslint to get latest rules'"
+    "test": "eslint ."
   },
   "engines": {
     "node": ">=14.0.0"
@@ -41,18 +39,13 @@
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-react": "^7.29.4",
     "lodash.difference": "4.5.0",
-    "prettier": "^2.6.2",
-    "standard-version": "^9.3.2"
+    "prettier": "^3.0.3",
+    "prettier-plugin-packagejson": "^2.4.6"
   },
   "prettier": {
     "semi": false,
     "printWidth": 100,
     "bracketSpacing": false,
     "singleQuote": true
-  },
-  "standard-version": {
-    "skip": {
-      "changelog": true
-    }
   }
 }
