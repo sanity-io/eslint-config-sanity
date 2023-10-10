@@ -1,5 +1,12 @@
 # Changelog
 
+## [7.0.1](https://github.com/sanity-io/eslint-config-sanity/compare/v7.0.0...v7.0.1) (2023-10-10)
+
+
+### Bug Fixes
+
+* don't publish junk files ([#54](https://github.com/sanity-io/eslint-config-sanity/issues/54)) ([59607e6](https://github.com/sanity-io/eslint-config-sanity/commit/59607e681f58009049f034d176b9527212745307))
+
 ## [7.0.0](https://github.com/sanity-io/eslint-config-sanity/compare/v6.0.0...v7.0.0) (2023-10-10)
 
 
