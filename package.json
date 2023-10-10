@@ -9,7 +9,12 @@
   "engines": {
     "node": ">=14.0.0"
   },
-  "files": ["import.js", "index.js", "react.js", "typescript.js"],
+  "files": [
+    "import.js",
+    "index.js",
+    "react.js",
+    "typescript.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sanity-io/eslint-config-sanity.git"
