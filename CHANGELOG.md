@@ -1,5 +1,12 @@
 # Changelog
 
+## [7.0.2](https://github.com/sanity-io/eslint-config-sanity/compare/v7.0.1...v7.0.2) (2024-02-21)
+
+
+### Bug Fixes
+
+* **deps:** Update linters to v7 ([#61](https://github.com/sanity-io/eslint-config-sanity/issues/61)) ([3064a8b](https://github.com/sanity-io/eslint-config-sanity/commit/3064a8b644a003cf16d5781cb88c2b2630f1415f))
+
 ## [7.0.1](https://github.com/sanity-io/eslint-config-sanity/compare/v7.0.0...v7.0.1) (2023-10-10)
 
 
