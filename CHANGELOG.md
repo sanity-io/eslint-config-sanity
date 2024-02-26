@@ -1,5 +1,17 @@
 # Changelog
 
+## [7.1.0](https://github.com/sanity-io/eslint-config-sanity/compare/v7.0.3...v7.1.0) (2024-02-26)
+
+
+### Features
+
+* add support for react hooks ([7a3034f](https://github.com/sanity-io/eslint-config-sanity/commit/7a3034fae51b39a22dfe35e3627b9ce420a12396))
+
+
+### Bug Fixes
+
+* add support for simple-import-sort ([30b6b50](https://github.com/sanity-io/eslint-config-sanity/commit/30b6b507b7c78f076c9a6dd88a32a5bca0a14f77))
+
 ## [7.0.3](https://github.com/sanity-io/eslint-config-sanity/compare/v7.0.2...v7.0.3) (2024-02-26)
 
 
