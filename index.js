@@ -6,7 +6,8 @@ module.exports = {
     ecmaVersion: 6,
     sourceType: 'module',
   },
-  extends: ['eslint:recommended', 'simple-import-sort'],
+  extends: ['eslint:recommended'],
+  plugins: ['simple-import-sort'],
   rules: {
     'accessor-pairs': 'warn',
     'array-bracket-spacing': ['error', 'never'],
