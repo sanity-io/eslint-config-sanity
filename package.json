@@ -2,23 +2,6 @@
   "name": "eslint-config-sanity",
   "version": "7.0.3",
   "description": "Shared eslint configs for sanity-io",
-  "main": "index.js",
-  "scripts": {
-    "test": "eslint ."
-  },
-  "engines": {
-    "node": ">=14.0.0"
-  },
-  "files": [
-    "import.js",
-    "index.js",
-    "react.js",
-    "typescript.js"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sanity-io/eslint-config-sanity.git"
-  },
   "keywords": [
     "sanity",
     "cms",
@@ -29,12 +12,48 @@
     "eslint",
     "eslintconfig"
   ],
-  "author": "Sanity.io <hello@sanity.io>",
-  "license": "MIT",
+  "homepage": "https://www.sanity.io/",
   "bugs": {
     "url": "https://github.com/sanity-io/eslint-config-sanity/issues"
   },
-  "homepage": "https://www.sanity.io/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanity-io/eslint-config-sanity.git"
+  },
+  "license": "MIT",
+  "author": "Sanity.io <hello@sanity.io>",
+  "main": "index.js",
+  "files": [
+    "import.js",
+    "index.js",
+    "react.js",
+    "typescript.js"
+  ],
+  "scripts": {
+    "test": "eslint ."
+  },
+  "prettier": {
+    "bracketSpacing": false,
+    "plugins": [
+      "prettier-plugin-packagejson"
+    ],
+    "printWidth": 100,
+    "semi": false,
+    "singleQuote": true
+  },
+  "dependencies": {
+    "eslint-plugin-simple-import-sort": "^12.0.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.1.0",
+    "@typescript-eslint/parser": "^7.1.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^3.2.5",
+    "prettier-plugin-packagejson": "^2.4.12"
+  },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.7.5 || ^7.0.0",
     "@typescript-eslint/parser": "^6.7.5 || ^7.0.0",
@@ -54,24 +73,12 @@
     },
     "eslint-plugin-react": {
       "optional": true
+    },
+    "eslint-plugin-react-hooks": {
+      "optional": true
     }
   },
-  "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^7.1.0",
-    "@typescript-eslint/parser": "^7.1.0",
-    "eslint": "^8.57.0",
-    "eslint-plugin-import": "^2.29.1",
-    "eslint-plugin-react": "^7.33.2",
-    "prettier": "^3.2.5",
-    "prettier-plugin-packagejson": "^2.4.12"
-  },
-  "prettier": {
-    "semi": false,
-    "printWidth": 100,
-    "bracketSpacing": false,
-    "singleQuote": true
-  },
-  "dependencies": {
-    "eslint-plugin-simple-import-sort": "^12.0.0"
+  "engines": {
+    "node": ">=14.0.0"
   }
 }

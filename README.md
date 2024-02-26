@@ -26,7 +26,7 @@ Adjust `env` according to your use case, obviously.
 ESLint requires plugins to be peer dependencies (they resolve relative to the end-user project), as such you need to install an additional dependency if you're using React:
 
 ```bash
-npm install --save-dev eslint-plugin-react
+npm install --save-dev eslint-plugin-react eslint-plugin-react-hooks
 ```
 
 Then, make sure to extend `sanity/react` in your `.eslintrc`:

@@ -4,7 +4,12 @@ module.exports = {
     node: true,
     browser: true,
   },
-  extends: ['plugin:react/recommended', 'plugin:react/jsx-runtime', './index'],
+  extends: [
+    'plugin:react/recommended',
+    'plugin:react-hooks/recommended',
+    'plugin:react/jsx-runtime',
+    './index',
+  ],
   plugins: ['react'],
   parserOptions: {
     ecmaFeatures: {
@@ -72,12 +77,14 @@ module.exports = {
     //@@@ deprecated in favor of the eslint-plugin-import extensions rule
     // "react/require-extension": "...",
     'react/require-optimization': 'off',
-    'react/require-default-props': 'warn',
     'react/prefer-stateless-function': ['warn', {ignorePureComponents: true}],
     'react/sort-comp': 'off',
     'react/sort-prop-types': 'off',
     'react/self-closing-comp': 'error',
     'react/style-prop-object': 'error',
     'react/void-dom-elements-no-children': 'error',
+    // Handle hooks
+    'react-hooks/exhaustive-deps': 'error',
+    'react-hooks/rules-of-hooks': 'error',
   },
 }

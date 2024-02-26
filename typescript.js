@@ -2,7 +2,11 @@
 // If using both TypeScript + React:
 // make sure you load `sanity/react` _before_  `sanity/typescript`
 module.exports = {
-  extends: ['plugin:@typescript-eslint/recommended', './index'],
+  extends: [
+    'plugin:@typescript-eslint/recommended',
+    'plugin:@typescript-eslint/recommended',
+    './index',
+  ],
   env: {
     node: true,
     browser: true,
@@ -10,11 +14,6 @@ module.exports = {
   plugins: ['@typescript-eslint'],
   parser: '@typescript-eslint/parser',
   rules: {
-    // --- typescript types over prop types in typescript projects
-    'react/prop-types': 'off',
-    'react/require-default-props': 'off',
-    // ---
-
     // --- causing parse errors with d.ts files
     // --- see https://github.com/typescript-eslint/typescript-eslint/issues/420
     'no-useless-constructor': 'off',
