@@ -6,7 +6,7 @@ module.exports = {
     ecmaVersion: 6,
     sourceType: 'module',
   },
-  extends: ['eslint:recommended'],
+  extends: ['eslint:recommended', 'simple-import-sort'],
   rules: {
     'accessor-pairs': 'warn',
     'array-bracket-spacing': ['error', 'never'],
@@ -229,5 +229,8 @@ module.exports = {
     'symbol-description': 'error',
     'use-isnan': 'error',
     'valid-typeof': 'error',
+    // simple import plugin
+    'simple-import-sort/imports': 'warn',
+    'simple-import-sort/exports': 'warn',
   },
 }

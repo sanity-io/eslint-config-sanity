@@ -32,6 +32,9 @@ module.exports = {
     'import/order': 'warn',
     'import/prefer-default-export': 'off',
     'import/unambiguous': 'off',
+    // disable simple-import-sort in favor of import/order
+    'simple-import-sort/imports': 'off',
+    'simple-import-sort/exports': 'off',
   },
   settings: {
     'import/resolve': {
