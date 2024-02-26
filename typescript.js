@@ -39,6 +39,9 @@ module.exports = {
       rules: {
         // Enable for TS files, but allow TSX (eg react components)
         '@typescript-eslint/explicit-module-boundary-types': ['warn'],
+        // These are better handled by TypeScript
+        'no-undef': 'off',
+        'no-undef-init': 'off',
       },
     },
   ],
