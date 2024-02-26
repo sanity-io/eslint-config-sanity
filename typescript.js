@@ -2,7 +2,7 @@
 // If using both TypeScript + React:
 // make sure you load `sanity/react` _before_  `sanity/typescript`
 module.exports = {
-  extends: ['./index'],
+  extends: ['plugin:@typescript-eslint/recommended', './index'],
   env: {
     node: true,
     browser: true,

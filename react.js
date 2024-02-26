@@ -44,7 +44,6 @@ module.exports = {
     'react/jsx-no-literals': 'off',
     'react/jsx-one-expression-per-line': 'off',
     'react/jsx-pascal-case': 'error',
-    'react/jsx-sort-default-props': 'off',
     //@@@ removed in favor of react/jsx-tag-spacing
     // "react/jsx-space-before-closing": ["error", "always"],
     'react/jsx-tag-spacing': [
