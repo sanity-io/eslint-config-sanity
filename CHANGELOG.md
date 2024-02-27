@@ -1,5 +1,12 @@
 # Changelog
 
+## [7.1.1](https://github.com/sanity-io/eslint-config-sanity/compare/v7.1.0...v7.1.1) (2024-02-27)
+
+
+### Bug Fixes
+
+* better typescript defaults ([b3f47c4](https://github.com/sanity-io/eslint-config-sanity/commit/b3f47c4b1ff551ddf64ca5429009619ea4fb42fd))
+
 ## [7.1.0](https://github.com/sanity-io/eslint-config-sanity/compare/v7.0.3...v7.1.0) (2024-02-26)
 
 
