@@ -3,9 +3,9 @@
 // make sure you load `sanity/react` _before_  `sanity/typescript`
 module.exports = {
   extends: [
-    'plugin:@typescript-eslint/recommended',
-    'plugin:@typescript-eslint/recommended',
     './index',
+    'plugin:@typescript-eslint/eslint-recommended',
+    'plugin:@typescript-eslint/recommended',
   ],
   env: {
     node: true,
@@ -34,7 +34,7 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['*.ts'],
+      files: ['*.ts', '*.tsx'],
       rules: {
         // Enable for TS files, but allow TSX (eg react components)
         '@typescript-eslint/explicit-module-boundary-types': ['warn'],
