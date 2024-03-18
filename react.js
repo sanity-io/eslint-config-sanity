@@ -78,6 +78,7 @@ module.exports = {
     // "react/require-extension": "...",
     'react/require-optimization': 'off',
     'react/prefer-stateless-function': ['warn', {ignorePureComponents: true}],
+    'react/prop-types': 'off',
     'react/sort-comp': 'off',
     'react/sort-prop-types': 'off',
     'react/self-closing-comp': 'error',
