@@ -1,5 +1,12 @@
 # Changelog
 
+## [7.1.2](https://github.com/sanity-io/eslint-config-sanity/compare/v7.1.1...v7.1.2) (2024-03-18)
+
+
+### Bug Fixes
+
+* remove `react/prop-types` rule ([89b18d4](https://github.com/sanity-io/eslint-config-sanity/commit/89b18d4018969d8f2b222b5aea51bf2030655fb3))
+
 ## [7.1.1](https://github.com/sanity-io/eslint-config-sanity/compare/v7.1.0...v7.1.1) (2024-02-27)
 
 
