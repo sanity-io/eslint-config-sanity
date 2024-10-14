@@ -30,29 +30,25 @@
     "typescript.js"
   ],
   "scripts": {
+    "format": "prettier --cache --write .",
     "test": "eslint ."
   },
-  "prettier": {
-    "bracketSpacing": false,
-    "plugins": [
-      "prettier-plugin-packagejson"
-    ],
-    "printWidth": 100,
-    "semi": false,
-    "singleQuote": true
-  },
+  "prettier": "@sanity/prettier-config",
   "dependencies": {
-    "eslint-plugin-simple-import-sort": "^12.0.0"
+    "eslint-plugin-simple-import-sort": "^12.1.1"
   },
   "devDependencies": {
+    "@eslint/eslintrc": "^3.1.0",
+    "@eslint/js": "^9.12.0",
+    "@sanity/prettier-config": "^1.0.3",
     "@typescript-eslint/eslint-plugin": "^8.8.1",
     "@typescript-eslint/parser": "^8.8.1",
     "eslint": "^9.12.0",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-react": "^7.37.1",
     "eslint-plugin-react-hooks": "^5.0.0",
-    "prettier": "^3.3.3",
-    "prettier-plugin-packagejson": "^2.5.3"
+    "globals": "^15.11.0",
+    "prettier": "^3.3.3"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.7.5 || ^7.0.0 || ^8.0.0",
