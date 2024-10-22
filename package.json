@@ -22,6 +22,7 @@
   },
   "license": "MIT",
   "author": "Sanity.io <hello@sanity.io>",
+  "type": "module",
   "main": "index.js",
   "files": [
     "import.js",
@@ -30,7 +31,11 @@
     "typescript.js"
   ],
   "scripts": {
-    "test": "eslint ."
+    "test": "eslint .",
+    "inspect": "eslint --inspect-config",
+    "inspect:import": "eslint --inspect-config import.js",
+    "inspect:react": "eslint --inspect-config react.js",
+    "inspect:ts": "eslint --inspect-config typescript.js"
   },
   "prettier": {
     "bracketSpacing": false,
@@ -42,22 +47,25 @@
     "singleQuote": true
   },
   "dependencies": {
-    "eslint-plugin-simple-import-sort": "^12.0.0"
+    "@stylistic/eslint-plugin": "^2.9.0",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "globals": "^15.11.0"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^7.18.0",
-    "@typescript-eslint/parser": "^7.18.0",
-    "eslint": "^8.57.1",
+    "@eslint/config-inspector": "^0.5.5",
+    "@eslint/js": "^9.13.0",
+    "@typescript-eslint/eslint-plugin": "^8.11.0",
+    "eslint": "^9.13.0",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-react": "^7.37.1",
     "eslint-plugin-react-hooks": "^5.0.0",
     "prettier": "^3.3.3",
-    "prettier-plugin-packagejson": "^2.5.3"
+    "prettier-plugin-packagejson": "^2.5.3",
+    "typescript-eslint": "^8.11.0"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.7.5 || ^7.0.0",
-    "@typescript-eslint/parser": "^6.7.5 || ^7.0.0",
-    "eslint": "^8.51.0",
+    "eslint": "^9.13.0",
     "eslint-plugin-import": "^2.28.1",
     "eslint-plugin-react": "^7.33.2"
   },
@@ -79,6 +87,6 @@
     }
   },
   "engines": {
-    "node": ">=14.0.0"
+    "node": ">=18.0.0"
   }
 }
