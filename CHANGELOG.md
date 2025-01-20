@@ -1,5 +1,12 @@
 # Changelog
 
+## [7.1.4](https://github.com/sanity-io/eslint-config-sanity/compare/v7.1.3...v7.1.4) (2025-01-20)
+
+
+### Bug Fixes
+
+* update deps ([#84](https://github.com/sanity-io/eslint-config-sanity/issues/84)) ([4f1e812](https://github.com/sanity-io/eslint-config-sanity/commit/4f1e8125dec599f15ccedb2b28066bb49b55af53))
+
 ## [7.1.3](https://github.com/sanity-io/eslint-config-sanity/compare/v7.1.2...v7.1.3) (2024-10-14)
 
 
